@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="github"
-                fetch="https://github.com" />
+    <remote  name="punit"
+		fetch="https://github.com/kryptniteX" />
+	
+	<remote name="kernel"
+		fetch="https://github.com/shibi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="kryptoniteX/device_asus_X01BD" remote="github" revision="hycon" />
-        <project path="vendor/asus" name="kryptoniteX/vendor_asus" remote="github" revision="eleven" />
-        <project path="kernel/asus/X01BD" name="Shibi404/kernel_asus_sdm660" remote="github" revision="perf" />
-        <project path="device/asus/sdm660-common" name="kryptoniteX/device_asus_sdm660-common" remote="github" revision="main" />
+        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="punit" revision="hycon" />
+        <project path="vendor/asus" name="vendor_asus" remote="punit" revision="eleven" />
+        <project path="kernel/asus/X01BD" name="kernel_asus_sdm660" remote="kernel" revision="perf" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="punit" revision="main" />
 
 </manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+        <remote name="github"
+                fetch="https://github.com" />
+
+        <!-- Sync trees -->
+        <project path="device/asus/X01BD" name="kryptoniteX/device_asus_X01BD" remote="github" revision="hycon" />
+        <project path="vendor/asus" name="kryptoniteX/vendor_asus" remote="github" revision="eleven" />
+        <project path="kernel/asus/X01BD" name="Shibi404/kernel_asus_sdm660" remote="github" revision="perf" />
+        <project path="device/asus/sdm660-common" name="kryptoniteX/device_asus_sdm660-common" remote="github" revision="main" />
+
+</manifest>

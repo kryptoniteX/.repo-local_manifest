@@ -2,10 +2,10 @@
 <manifest>
           
     <remote  name="punit"
-		fetch="https://github.com/kryptniteX" />
+		fetch="https://github.com/kryptoniteX" />
 	
 	<remote name="kernel"
-		fetch="https://github.com/shibi" />
+		fetch="https://github.com/Shibi404" />
 
         <!-- Sync trees -->
         <project path="device/asus/X01BD" name="device_asus_X01BD" remote="punit" revision="hycon" />

@@ -7,7 +7,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X01BD" name="device_asus_X01BD" remote="punit" revision="hycon" />
         <project path="vendor/asus" name="vendor_asus" remote="punit" revision="eleven" />
-        <project path="kernel/asus/X01BD" name="kernel_asus_sdm660" remote="kernel" revision="main" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kernel" revision="main" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="punit" revision="main" />
 
 </manifest>

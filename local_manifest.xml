@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-    <remote  name="punit"
-	<fetch="https://github.com/kryptoniteX" />
+    <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="punit" revision="hycon" />
-        <project path="vendor/asus" name="vendor_asus" remote="punit" revision="eleven" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="punit" revision="main" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="punit" revision="main" />
+        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="hycon" />
+        <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kryptoniteX" revision="main" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />
 
 </manifest>

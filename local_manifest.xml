@@ -2,7 +2,7 @@
 <manifest>
           
     <remote  name="punit"
-		fetch="https://github.com/kryptoniteX" />
+	<fetch="https://github.com/kryptoniteX" />
 
         <!-- Sync trees -->
         <project path="device/asus/X01BD" name="device_asus_X01BD" remote="punit" revision="hycon" />

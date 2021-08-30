@@ -2,11 +2,12 @@
 <manifest>
           
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
+    <remote  name="kernel" fetch="https://github.com/UtsavBalar1231" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="hycon" />
-        <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kryptoniteX" revision="main" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />
+        <project path="device/xiaomi/rapahael" name="device_xiaomi_raphael" remote="kryptoniteX" revision="revenge" />
+        <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="kryptoniteX" revision="main" />
+        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kernel" revision="android11" />
+        <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="kryptoniteX" revision="main" />
 
 </manifest>

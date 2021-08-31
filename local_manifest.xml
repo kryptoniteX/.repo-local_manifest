@@ -2,12 +2,12 @@
 <manifest>
           
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
-    <remote  name="kernel" fetch="https://github.com/UtsavBalar1231" />
+    <remote  name="kernel" fetch="https://github.com/anuragbhaumik" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/rapahael" name="device_xiaomi_raphael" remote="kryptoniteX" revision="revenge" />
         <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="kryptoniteX" revision="main" />
-        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kernel" revision="android11" />
+        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kernel" revision="eleven" />
         <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="kryptoniteX" revision="main" />
 
 </manifest>

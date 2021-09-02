@@ -4,8 +4,7 @@
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
     <remote  name="kernel" fetch="https://github.com/anuragbhaumik" />  
         
-          <!-- sync display -->
-        <remove-project name="hardware/qcom-caf/sm8150/display" />  
+          <!-- sync display --> 
         <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="kryptoniteX" revision="eleven" />
           
           

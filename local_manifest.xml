@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-    <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
+    <remote  name="kryptoniteX" fetch="https://www.github.com/Hycon-Devices" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="hycon" />
-        <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kryptoniteX" revision="main" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />
+        <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="kryptoniteX" revision="eleven-oss" />
+        <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
+        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
+        <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="kryptoniteX" revision="eleven" />
 
 </manifest>

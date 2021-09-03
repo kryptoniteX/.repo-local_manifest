@@ -2,9 +2,9 @@
 <manifest>
           
     <remote  name="kryptoniteX" fetch="https://www.github.com/Hycon-Devices" />
-
+    <remote  name="puney" fetch="https://www.github.com/kryptoniteX" />
         <!-- Sync trees -->
-        <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="kryptoniteX" revision="eleven-oss" />
+        <project path="device/xiaomi/raphael" name="aospdevice_xiaomi_raphael" remote="puney" revision="eleven-oss" />
         <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
         <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
         <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="kryptoniteX" revision="eleven" />

@@ -1,1 +1,1 @@
-# raphael-HyconOS-krptoniteX
+# asus_X01BD-krptoniteX

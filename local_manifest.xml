@@ -4,7 +4,7 @@
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="kryptoniteX" revision="revengeOS" />
+        <project path="device/asus/X01AD" name="device_asus_X01AD" remote="kryptoniteX" revision="evolutionX" />
         <project path="vendor/asus/X01AD" name="vendor_asus_X01AD" remote="kryptoniteX" revision="R" />
         <project path="kernel/asus/X01AD" name="kernel_asus_X01AD" remote="kryptoniteX" revision="eleven/latest" />
      

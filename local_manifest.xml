@@ -4,7 +4,7 @@
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="hycon" />
+        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="octavius" />
         <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kryptoniteX" revision="main" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />

@@ -2,11 +2,15 @@
 <manifest>
           
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
-
+    <remote name="patch" fetch="https://github.com/PixelExperience" />
         <!-- Sync trees -->
         <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="octavius" />
         <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kryptoniteX" revision="main" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />
+        <remove-project name="platform/frameworks/opt/net/ims" />
+        <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="patch" revision="eleven" clone-depth="1" />
+        <remove-project name="platform_frameworks_opt_net_wifi" />
+        <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="patch" revision="eleven" clone-depth="1" />
 
 </manifest>

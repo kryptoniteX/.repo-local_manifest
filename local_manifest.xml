@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-    <remote  name="kryptoniteX" fetch="https://www.github.com/Hycon-Devices" />
-    <remote  name="puney" fetch="https://www.github.com/kryptoniteX" />
+    <remote  name="github" fetch="https://github.com/PixelExperience-Devices" />
+    <remote  name="gitlab" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" />
+    <remote  name="lineage" fetch="https://github.com/LineageOS" />      
         <!-- Sync trees -->
-        <project path="device/xiaomi/raphael" name="aospdevice_xiaomi_raphael" remote="puney" revision="eleven-oss" />
-        <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
-        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="kryptoniteX" revision="eleven" />
-        <project path="device/xiaomi/raphael-sepolicy" name="device_xiaomi_raphael-sepolicy" remote="kryptoniteX" revision="eleven" />
-
+        <project path="device/xiaomi/raphael" name="device_xiaomi_raphael" remote="github" revision="eleven" />
+        <project path="vendor/xiaomi/raphael" name="vendor_xiaomi_raphael" remote="gitlab" revision="eleven" />
+        <project path="kernel/xiaomi/raphael" name="kernel_xiaomi_raphael" remote="github" revision="eleven" />
+        <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-18.1" />
 </manifest>

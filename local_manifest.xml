@@ -2,11 +2,18 @@
 <manifest>
           
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
-    <remote  name="kernel" fetch="https://github.com/CherishOS-Devices" />
+    <remote  name="trees" fetch="https://github.com/dotOS-Devices" />
+    <remote  name="hals" fetch="https://github.com/Atom-X-Devs" />
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD" remote="kryptoniteX" revision="hycon" />
-        <project path="vendor/asus" name="vendor_asus" remote="kryptoniteX" revision="eleven" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="kernel" revision="eleven" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="kryptoniteX" revision="main" />
+        <project path="device/asus/X01BD" name="device_asus_X01BD-4.19" remote="kryptoniteX" revision="hycon" />
+        <project path="vendor/asus" name="vendor_asus_proprietary" remote="trees" revision="dot11" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="trees" revision="dot11" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="trees" revision="dot11" />
+        <remove-project name="hardware/qcom-caf/sdm660/display" />
+        <remove-project name="hardware/qcom-caf/sdm660/audio" />
+        <remove-project name="hardware/qcom-caf/sdm660/media" />
+        <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="hals" revision="sdm660" />
+        <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="hals" revision="sdm660" />
+        <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="hals" revision="sdm660" />
 
 </manifest>

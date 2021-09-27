@@ -4,14 +4,17 @@
     <remote  name="kryptoniteX" fetch="https://github.com/kryptoniteX" />
     <remote  name="trees" fetch="https://github.com/dotOS-Devices" />
     <remote  name="hals" fetch="https://github.com/Atom-X-Devs" />
+    <remote  name="liquid" fetch="https://github.com/liquidOS-Project" />
         <!-- Sync trees -->
-        <project path="device/asus/X01BD" name="device_asus_X01BD-4.19" remote="kryptoniteX" revision="hycon" />
+        <project path="device/asus/X01BD" name="device_asus_X01BD-4.19" remote="kryptoniteX" revision="lineage" />
         <project path="vendor/asus" name="vendor_asus_proprietary" remote="trees" revision="dot11" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="trees" revision="dot11" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="trees" revision="dot11" />
         <remove-project name="hardware/qcom-caf/sdm660/display" />
         <remove-project name="hardware/qcom-caf/sdm660/audio" />
         <remove-project name="hardware/qcom-caf/sdm660/media" />
+        <remove-project name="packages/apps/Dialer" />
+        <project path="packages/apps/Diale" name="platform_packages_apps_Dialer" remote="liquid" revision="11" />
         <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" remote="hals" revision="sdm660" />
         <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" remote="hals" revision="sdm660" />
         <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" remote="hals" revision="sdm660" />
